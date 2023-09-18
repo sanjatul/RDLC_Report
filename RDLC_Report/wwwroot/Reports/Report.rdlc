@@ -6,28 +6,28 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.68359in</Width>
+              <Width>0.18229in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.58984in</Width>
+              <Width>0.51562in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.67318in</Width>
+              <Width>0.55079in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.47526in</Width>
+              <Width>0.82161in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.50911in</Width>
+              <Width>0.94531in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.82943in</Width>
+              <Width>0.86979in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.51693in</Width>
+              <Width>1.15105in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.15234in</Width>
+              <Width>1.10937in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -45,7 +45,7 @@
                             <TextRun>
                               <Value>Id</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -80,7 +80,7 @@
                             <TextRun>
                               <Value>Name</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -115,7 +115,7 @@
                             <TextRun>
                               <Value>Address</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -150,7 +150,7 @@
                             <TextRun>
                               <Value>Company Id</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -185,7 +185,7 @@
                             <TextRun>
                               <Value>Company Name</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -220,7 +220,7 @@
                             <TextRun>
                               <Value>Department Id</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -253,9 +253,23 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Department Name</Value>
+                              <Value>Department </Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Name</Value>
+                              <Style>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -290,7 +304,7 @@
                             <TextRun>
                               <Value>Gross Salary</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -329,7 +343,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Id.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -361,7 +377,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Name.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -393,7 +411,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Address.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -425,7 +445,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!CompanyId.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -457,7 +479,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!CompanyName.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -489,7 +513,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!DepartmentId.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -521,7 +547,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!DepartmentName.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -553,7 +581,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!GrossSalary.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -603,9 +633,9 @@
         </TablixRowHierarchy>
         <DataSetName>Employee</DataSetName>
         <Top>0.18625in</Top>
-        <Left>0.83208in</Left>
+        <Left>0.10813in</Left>
         <Height>0.5in</Height>
-        <Width>9.42969in</Width>
+        <Width>6.14583in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -613,10 +643,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>5.08333in</Height>
+    <Height>2.30208in</Height>
     <Style />
   </Body>
-  <Width>11.03in</Width>
+  <Width>6.25395in</Width>
   <Page>
     <PageHeader>
       <Height>1in</Height>
@@ -645,9 +675,9 @@
           </Paragraphs>
           <rd:DefaultName>Textbox18</rd:DefaultName>
           <Top>0.26958in</Top>
-          <Left>3.66542in</Left>
+          <Left>0.44666in</Left>
           <Height>0.41667in</Height>
-          <Width>3.73958in</Width>
+          <Width>4.25in</Width>
           <Style>
             <Border>
               <Style>None</Style>
