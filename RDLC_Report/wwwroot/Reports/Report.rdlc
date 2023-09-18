@@ -27,7 +27,7 @@
               <Width>1.15105in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.10937in</Width>
+              <Width>0.95312in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -635,7 +635,7 @@
         <Top>0.18625in</Top>
         <Left>0.10813in</Left>
         <Height>0.5in</Height>
-        <Width>6.14583in</Width>
+        <Width>5.98958in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -643,41 +643,37 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2.30208in</Height>
+    <Height>1.79166in</Height>
     <Style />
   </Body>
-  <Width>6.25395in</Width>
+  <Width>6.21229in</Width>
   <Page>
     <PageHeader>
-      <Height>1in</Height>
+      <Height>0.42583in</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
-        <Textbox Name="Textbox18">
+        <Textbox Name="Textbox6">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
           <Paragraphs>
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value> Employee Details Report</Value>
+                  <Value>RDLC Report</Value>
                   <Style>
-                    <FontStyle>Italic</FontStyle>
-                    <FontSize>14pt</FontSize>
                     <FontWeight>Bold</FontWeight>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <Style>
-                <TextAlign>Center</TextAlign>
-              </Style>
+              <Style />
             </Paragraph>
           </Paragraphs>
-          <rd:DefaultName>Textbox18</rd:DefaultName>
-          <Top>0.26958in</Top>
-          <Left>0.44666in</Left>
-          <Height>0.41667in</Height>
-          <Width>4.25in</Width>
+          <rd:DefaultName>Textbox6</rd:DefaultName>
+          <Top>0.13417in</Top>
+          <Left>2.49875in</Left>
+          <Height>0.25in</Height>
+          <Width>1in</Width>
           <Style>
             <Border>
               <Style>None</Style>
